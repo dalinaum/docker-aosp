@@ -24,7 +24,6 @@ RUN chmod a+x /home/aosp/bin/repo
 RUN echo "export PATH=~/bin:\$PATH" >> /home/aosp/.bashrc
 
 RUN cd /home/aosp/kitkat; /home/aosp/bin/repo init -u https://android.googlesource.com/platform/manifest -b android-4.4.2_r2.0.1
-RUN chown -R aosp:aosp /home/aosp/kitkat
 
 ENV HOME /home/aosp
 WORKDIR /home/aosp/kitkat
