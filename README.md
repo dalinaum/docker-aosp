@@ -5,8 +5,10 @@ AOSP (Android Open Source Project) environment using Docker
 
 Usage
 -----
+````
 docker pull dalinaum/aosp
 docker run -it dalinaum/aosp
+````
 
 If you're using	[boot2docker](https://docker.com/), you should [increase the volume size](https://docs.docker.com/articles/b2d_volume_resize/) and RAM to 4GB.
 
