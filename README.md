@@ -6,7 +6,6 @@ docker-aosp
 Usage
 -----
 ````
-docker pull dalinaum/aosp
 docker run -it dalinaum/aosp
 ````
 
