@@ -9,6 +9,8 @@ Usage
 docker run -it dalinaum/aosp
 ````
 
+There is one volume, `/out`. If you need to use it, you can run this image with `-v` option to mount it.
+
 If you're using	[boot2docker](https://docker.com/), you should [increase the volume size](https://docs.docker.com/articles/b2d_volume_resize/) and RAM to 4GB.
 
 
