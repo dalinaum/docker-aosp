@@ -1,7 +1,7 @@
 docker-aosp
 ===========
 
-AOSP (Android Open Source Project) environment using Docker
+[AOSP (Android Open Source Project)](https://source.android.com/) environment using [docker](https://docker.com/)
 
 Usage
 -----
