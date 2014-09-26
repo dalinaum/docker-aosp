@@ -18,12 +18,12 @@ How to build docker images
 To create an init image, exceute the following command:
 ````
 cd init
-docker build -t dalinaum/aosp-init .
+docker build -t aosp-init .
 ````
 
 To sync AOSP, execute the following command:
 ````
-docker run --name init -it dalinaum/aosp-init
+docker run --name init -it aosp-init
 repo sync
 ````
 
