@@ -7,6 +7,8 @@ Usage
 -----
 ````
 docker run -it dalinaum/aosp
+lunch
+make
 ````
 
 There is one volume, `/out`. If you need to use it, you can run this image with `-v` option to mount it.
